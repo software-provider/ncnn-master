@@ -19,23 +19,15 @@ Developers can easily deploy deep learning algorithm models to the mobile platfo
 create intelligent APPs, and bring the artificial intelligence to your fingertips.
 ncnn is currently being used in many Tencent applications, such as QQ, Qzone, WeChat, Pitu and so on.
 
-ncnn 是一个为手机端极致优化的高性能神经网络前向计算框架。
-ncnn 从设计之初深刻考虑手机端的部署和使用。
-无第三方依赖，跨平台，手机端 cpu 的速度快于目前所有已知的开源框架。
-基于 ncnn，开发者能够将深度学习算法轻松移植到手机端高效执行，
-开发出人工智能 APP，将 AI 带到你的指尖。
-ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天天 P 图等。
-
 ---
 
-## 技术交流 QQ 群：637093648 (超多大佬) 答案：卷卷卷卷卷 （已满）
+## Technical exchange QQ group: 637093648 (Super big boss) Answer: Juanjuanjuanjuanjuan (full)
 
-## Pocky QQ 群（MLIR YES!）: 677104663(超多大佬) 答案：multi-level intermediate representation
+## Pocky QQ group (MLIR YES!): 677104663 (Super Big Brother) Answer: multi-level intermediate representation
 
 ## Telegram Group <https://t.me/ncnnyes>
 
 ## Discord Channel <https://discord.gg/YRsxgmF>
-
 ---
 
 ## Current building status matrix
@@ -138,7 +130,7 @@ ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天�
 
 ## Support most commonly used CNN network
 
-## 支持大部分常用的 CNN 网络
+## Support most commonly used CNN networks
 
 - Classical CNN:
   [VGG](https://github.com/BVLC/caffe/wiki/Model-Zoo#models-used-by-the-vgg-team-in-ilsvrc-2014)
@@ -220,7 +212,7 @@ ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天�
 
 **[use ncnn with alexnet](https://github.com/Tencent/ncnn/wiki/use-ncnn-with-alexnet) with detailed steps, recommended for beginners :)**
 
-**[ncnn 组件使用指北 alexnet](https://github.com/Tencent/ncnn/wiki/use-ncnn-with-alexnet.zh) 附带详细步骤，新人强烈推荐 :)**
+**[ncnn component usage guide north alexnet](https://github.com/Tencent/ncnn/wiki/use-ncnn-with-alexnet.zh) with detailed steps, newcomers strongly recommend :)**
 
 **[use netron for ncnn model visualization](https://netron.app)**
 
@@ -258,21 +250,7 @@ ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天�
 - Extensible model design, supports 8bit quantization and half-precision floating point storage, can import caffe/pytorch/mxnet/onnx/darknet/keras/tensorflow(mlir) models
 - Support direct memory zero copy reference load network model
 - Can be registered with custom layer implementation and extended
-- Well, it is strong, not afraid of being stuffed with 卷 QvQ
-
-## 功能概述
-
-- 支持卷积神经网络，支持多输入和多分支结构，可计算部分分支
-- 无任何第三方库依赖，不依赖 BLAS/NNPACK 等计算框架
-- 纯 C++ 实现，跨平台，支持 Android / iOS 等
-- ARM Neon 汇编级良心优化，计算速度极快
-- 精细的内存管理和数据结构设计，内存占用极低
-- 支持多核并行计算加速，ARM big.LITTLE CPU 调度优化
-- 支持基于全新低消耗的 Vulkan API GPU 加速
-- 可扩展的模型设计，支持 8bit [量化](tools/quantize) 和半精度浮点存储，可导入 caffe/pytorch/mxnet/onnx/darknet/keras/tensorflow(mlir) 模型
-- 支持直接内存零拷贝引用加载网络模型
-- 可注册自定义层实现并扩展
-- 恩，很强就是了，不怕被塞卷 QvQ
+- Well, it’s enough to be strong, not afraid of being swamped QvQ
 
 ---
 
@@ -314,8 +292,6 @@ ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天�
 
 - <https://github.com/magicse/ncnn-colorization-siggraph17><br>
 <img src="https://user-images.githubusercontent.com/13585785/189326958-f5a8d6f8-caef-49bf-88da-ae494371195d.jpg" width ="700"/>
-
-- <https://github.com/mizu-bai/ncnn-fortran> Call ncnn from Fortran
 
 - <https://github.com/k2-fsa/sherpa> Use ncnn for real-time speech
   recognition (i.e., speech-to-text); also support embedded devices and provide
